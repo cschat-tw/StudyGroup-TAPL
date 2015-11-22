@@ -1,0 +1,4 @@
+/* hide chapter numbers */
+.chapter > * > b {
+  display: none;
+}
