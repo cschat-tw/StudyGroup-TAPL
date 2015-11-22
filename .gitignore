@@ -1,2 +1,5 @@
 dist/
+node_modules/
+package.json
+book.json
 build.sh
