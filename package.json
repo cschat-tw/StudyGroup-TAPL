@@ -1,0 +1,23 @@
+{
+  "name": "studygroup-tapl",
+  "version": "0.0.1",
+  "description": "A Types and Programming Languages Study Group.",
+  "main": "index.html",
+  "dependencies": {
+    "gitbook-plugin-customtheme": "git://github.com/caasi/gitbook-plugin-customtheme.git"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cschat-tw/StudyGroup-TAPL.git"
+  },
+  "author": "drm343",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cschat-tw/StudyGroup-TAPL/issues"
+  },
+  "homepage": "https://github.com/cschat-tw/StudyGroup-TAPL#readme"
+}

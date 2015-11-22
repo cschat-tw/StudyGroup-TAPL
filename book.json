@@ -1,0 +1,11 @@
+{
+  "plugins": [
+    "customtheme"
+  ],
+  "pluginsConfig": {
+    "customtheme": {
+      "css": ["custom/css/app.css"],
+      "js": ["custom/js/app.js"]
+    }
+  }
+}
