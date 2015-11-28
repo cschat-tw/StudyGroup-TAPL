@@ -1,5 +1,10 @@
 ;; Interpreter: GNU Guile 2.0.11
-;; I'm not sure if this implementation is sound !!
+;; 我無法確定這個實作完全遵守一樣的邏輯！
+
+;; *更新*: 想了一想，cons 一個 'end 在 term 前面像是亂來的做法因為這樣把
+;; type 的定義變得混雜了，或許使用和書裡面類似的定義才是正確的做法……
+;; (即是所有 term 的 ctor 都有一個 `info' 參數，可以用來記憶 term 是否
+;; 已經 eval 過)
 
 (use-modules (ice-9 match)
              (rnrs base)
@@ -69,8 +74,8 @@
                                  (tm-pred (tm-succ (tm-zero))))))))
 
 (eval-print '(tm-if (tm-true)
-              (tm-is-zero (tm-succ (tm-true)))
-              (tm-false)))
+                    (tm-is-zero (tm-succ (tm-true)))
+                    (tm-false)))
 
 (eval-print '(tm-if (tm-false)
                     (tm-zero)
