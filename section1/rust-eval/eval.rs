@@ -1,3 +1,5 @@
+// eval1() is pretty much okay until eval() came along, 
+// borrow checker stopped me from finishing it.
 #![feature(box_syntax, box_patterns)]
 
 #[derive(Debug)]
