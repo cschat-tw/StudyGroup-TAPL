@@ -19,3 +19,13 @@
 * [tapl-Haskell](https://code.google.com/p/tapl-haskell/downloads/detail?name=tapl-haskell-0.1.tar.gz&can=2&q=)
 
   用 haskell 實作的 tapl。
+
+## Practices
+
+@b4283 的 `small-step-eval.rs` ：
+
+!CODEFILE "./small-step-eval.rs"
+
+與 `big-step-eval.scm` ：
+
+!CODEFILE "./big-step-eval.scm"

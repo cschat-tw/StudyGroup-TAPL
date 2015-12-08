@@ -4,7 +4,8 @@
   "description": "A Types and Programming Languages Study Group.",
   "main": "index.html",
   "dependencies": {
-    "gitbook-plugin-customtheme": "git://github.com/caasi/gitbook-plugin-customtheme.git"
+    "gitbook-plugin-customtheme": "git://github.com/caasi/gitbook-plugin-customtheme.git",
+    "gitbook-plugin-include-highlight": "^0.1.0"
   },
   "devDependencies": {},
   "scripts": {

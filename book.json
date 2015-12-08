@@ -1,6 +1,7 @@
 {
   "plugins": [
-    "customtheme"
+    "customtheme",
+    "include-highlight"
   ],
   "pluginsConfig": {
     "customtheme": {
