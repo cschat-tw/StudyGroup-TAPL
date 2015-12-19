@@ -2,6 +2,9 @@
 
 A Types and Programming Languages Study Group.
 
+供大家打打寫寫的 Hackpad：
+https://hackpad.com/TaPL--y8iYXwtcG1G
+
 ## 日程表
 
 | 日期       | 地點 | 預定進度                  | 實際進度                                  | 
