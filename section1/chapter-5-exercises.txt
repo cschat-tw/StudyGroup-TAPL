@@ -1,0 +1,16 @@
+5.2.1
+or = La. Lb. a tru b
+not = La. a fls tru
+
+5.2.2
+succ = Ln. Ls. Lz. n s (s z)
+
+5.2.4
+expt = Lm. Ln. m (times n) C0
+;; not sure about this one
+
+5.2.5
+sub = Lm. Ln. n prd m
+
+5.2.7
+equal = Lm. Ln. iszro (sub m n)
