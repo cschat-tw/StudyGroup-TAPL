@@ -2,7 +2,3 @@
 .chapter > * > b {
   display: none;
 }
-
-.small-caps {
-  font-variant: small-caps;
-}
